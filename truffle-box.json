@@ -1,10 +1,13 @@
 {
     "ignore": [
-        ".gitignore"
+        ".gitignore", 
+        "box-img-lg.png", 
+        "box-img-sm.png"
     ],
     "commands": {
+        "Compile": "truffle compile"
     },
     "hooks": {
-        "post-unpack": "npm install"
+        "post-unpack": "npm install && truffle compile"
     }
 }
