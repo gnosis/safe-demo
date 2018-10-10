@@ -11,7 +11,7 @@ This project contains examples how to use the Gnosis Safe and the services relat
 * trigger Safe deployment
 ```bash
 curl -X POST \
-  https://safe-relay.dev.gnosisdev.com/api/v1/safes/ \
+  https://safe-relay.rinkeby.gnosis.pm/api/v1/safes/ \
   -H 'Content-Type: application/json' \
   -d '{
 	"owners": ["0x39cBD3814757Be997040E51921e8D54618278A08"],
@@ -23,19 +23,19 @@ curl -X POST \
 * notify the service that the safe was funded
 ```bash
 curl -X PUT \
-  https://safe-relay.dev.gnosisdev.com/api/v1/safes/<safe_address_checksummed>/funded/
+  https://safe-relay.rinkeby.gnosis.pm/api/v1/safes/<safe_address_checksummed>/funded/
 ```
 * query creation state
 ```bash
 curl -X GET \
-  https://safe-relay.dev.gnosisdev.com/api/v1/safes/<safe_address_checksummed>/funded/
+  https://safe-relay.rinkeby.gnosis.pm/api/v1/safes/<safe_address_checksummed>/funded/
 ```
 
 ### Transaction execution
 * retrieve estimate
 ```bash
 curl -X POST \
-  https://safe-relay.dev.gnosisdev.com/api/v1/safes/<safe_address_checksummed>/transactions/estimate/ \
+  https://safe-relay.rinkeby.gnosis.pm/api/v1/safes/<safe_address_checksummed>/transactions/estimate/ \
   -H 'Content-Type: application/json' \
   -d '{
 	"to": "0x39cBD3814757Be997040E51921e8D54618278A08",
@@ -51,7 +51,7 @@ require("./scripts/demo.js")(web3, "<safe_address_checksummed>", "0x39cBD3814757
 * trigger transaction
 ```bash
 curl -X POST \
-  https://safe-relay.dev.gnosisdev.com/api/v1/safes/0xa9BCF0F03533A1F3921824C1359Ae632E07303b7/transactions/ \
+  https://safe-relay.rinkeby.gnosis.pm/api/v1/safes/0xa9BCF0F03533A1F3921824C1359Ae632E07303b7/transactions/ \
   -H 'Content-Type: application/json' \
   -d '{
 	"to": "0x39cBD3814757Be997040E51921e8D54618278A08",
