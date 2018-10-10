@@ -20,7 +20,6 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "gnosis-safe": "github:gnosis/safe-contracts#v0.0.2-alpha",
-    "vcsurl": "^0.1.1"
+    "gnosis-safe": "github:gnosis/safe-contracts#v0.0.2-alpha"
   }
 }
