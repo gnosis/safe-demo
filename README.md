@@ -51,7 +51,7 @@ require("./scripts/demo.js")(web3, "<safe_address_checksummed>", "0x39cBD3814757
 * trigger transaction
 ```bash
 curl -X POST \
-  https://safe-relay.rinkeby.gnosis.pm/api/v1/safes/0xa9BCF0F03533A1F3921824C1359Ae632E07303b7/transactions/ \
+  https://safe-relay.rinkeby.gnosis.pm/api/v1/safes/<safe_address_checksummed>/transactions/ \
   -H 'Content-Type: application/json' \
   -d '{
 	"to": "0x39cBD3814757Be997040E51921e8D54618278A08",
