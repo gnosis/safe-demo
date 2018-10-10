@@ -1,0 +1,25 @@
+{
+  "name": "safe-demo",
+  "version": "0.0.1",
+  "description": "Demo code for the Gnosis Safe",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gnosis/safe-demo.git"
+  },
+  "keywords": [
+    "Ethereum",
+    "Wallet",
+    "Safe"
+  ],
+  "author": "richard@gnosis.pm",
+  "bugs": {
+    "url": "https://github.com/gnosis/safe-demo/issues"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "gnosis-safe": "github:gnosis/safe-contracts#v0.0.2-alpha"
+  }
+}

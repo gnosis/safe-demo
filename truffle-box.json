@@ -1,0 +1,10 @@
+{
+    "ignore": [
+        ".gitignore"
+    ],
+    "commands": {
+    },
+    "hooks": {
+        "post-unpack": "npm install"
+    }
+}
