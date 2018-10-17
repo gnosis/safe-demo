@@ -71,6 +71,8 @@ curl -X POST \
 
 ## Via Truffle
 This project is also available as Truffle box
-```mkdir safe-demo
+```
+mkdir safe-demo
 cd safe-demo
-truffle unbox gnosis/safe-demo```
+truffle unbox gnosis/safe-demo
+```
