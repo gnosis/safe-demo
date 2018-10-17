@@ -1,6 +1,6 @@
 # Safe demo box
 
-This project contains examples how to use the Gnosis Safe and the services related to it.
+This project contains examples on how to use the Gnosis Safe and the services related to it.
 
 **All Safes are created and used on Rinkeby**
 
@@ -67,4 +67,12 @@ curl -X POST \
     	"v": <demo_script_v>
     }]
 }'
+```
+
+## Via Truffle
+This project is also available as Truffle box
+```
+mkdir safe-demo
+cd safe-demo
+truffle unbox gnosis/safe-demo
 ```
